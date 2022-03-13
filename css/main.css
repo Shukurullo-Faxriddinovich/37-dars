@@ -1,0 +1,34 @@
+body{
+  background-color:lightseagreen;
+}
+
+.list{
+  width: 1300px;
+  display: flex;
+  margin: 10px auto;
+  padding: 0;
+  justify-content: center;
+  list-style: none;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+li{
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  background-color:cyan;
+}
+
+.list__img{
+  width: 100%;
+}
+
+.list__heading{
+  background-color: cornsilk;
+}
+
+.list__datetime{
+  background-color:cadetblue;
+}
