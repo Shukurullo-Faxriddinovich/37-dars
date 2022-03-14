@@ -29,6 +29,18 @@ li{
   background-color: cornsilk;
 }
 
+.list__height{
+  display: block;
+  margin-bottom: 10px;
+}
+
+.list__weight{
+  display: block;
+  margin-bottom: 10px;
+
+}
+
 .list__datetime{
   background-color:cadetblue;
 }
+
