@@ -33,12 +33,11 @@ for (var pokemon of pokemons){
   newWeight.setAttribute("class", "list__weight");
 
 
-
+newItem.appendChild(newNum);
 newItem.appendChild(newImg);
 newItem.appendChild(newTitle);
 newItem.appendChild(newHeight);
 newItem.appendChild(newWeight);
-newItem.appendChild(newNum);
 newItem.appendChild(newEgg);
 newItem.appendChild(newDateTime);
 elList.appendChild(newItem);
